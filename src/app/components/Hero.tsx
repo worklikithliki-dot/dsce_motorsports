@@ -59,14 +59,17 @@ export default function Hero() {
     >
       {/* Background Video */}
       <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-30"
-      >
-        <source src="/videos/f1.MP4" type="video/mp4" />
-      </video>
+  autoPlay
+  muted
+  loop
+  playsInline
+  controls
+  preload="auto"
+  className="absolute inset-0 z-0 h-full w-full object-cover"
+>
+  <source src="/videos/f1.MP4" type="video/mp4" />
+  Your browser does not support this video.
+</video>
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
