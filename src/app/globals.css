@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* ================================
+   FONT SYSTEM
+   ================================ */
+
+/* Headings */
+.font-heading {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Body / UI */
+.font-body {
+  font-family: var(--font-inter), Inter, Arial, Helvetica, sans-serif;
+}
+
+/* ================================
+   ROOT
+   ================================ */
+
+:root {
+  --background: #000000;
+  --foreground: #ededed;
+}
+
+/* ================================
+   GLOBAL
+   ================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Inter, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
