@@ -18,6 +18,13 @@ const sponsors = [
   "/images/sponsors/sponsor12.png",
   "/images/sponsors/sponsor13.png",
   "/images/sponsors/sponsor14.png",
+  "/images/sponsors/sponsor15.png",
+  "/images/sponsors/sponsor16.png",
+  "/images/sponsors/sponsor17.png",
+  "/images/sponsors/sponsor18.png",
+  "/images/sponsors/sponsor19.png",
+  "/images/sponsors/sponsor20.png",
+  "/images/sponsors/sponsor21.png"
 ];
 
 export default function SponsorsSection() {
