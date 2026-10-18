@@ -57,19 +57,21 @@ export default function Hero() {
       ref={heroRef}
       className="relative h-screen overflow-hidden bg-black flex items-center justify-center"
     >
+      
       {/* Background Video */}
       <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  controls
-  preload="auto"
-  className="absolute inset-0 z-0 h-full w-full object-cover"
->
-  <source src="/videos/f1.MP4" type="video/mp4" />
-  Your browser does not support this video.
-</video>
+        autoPlay
+        muted
+        loop
+        playsInline
+        controls
+        preload="auto"
+        onError={(e) => console.error("Hero video error:", e.currentTarget.error)}
+        className="absolute inset-0 z-0 h-full w-full object-cover"
+      >
+        <source src="/videos/f1.MP4" type="video/mp4" />
+      </video>
+
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
