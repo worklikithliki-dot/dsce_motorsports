@@ -149,7 +149,7 @@ export default function Footer() {
         className="text-red-500 transition group-hover:scale-110"
       />
       <span className="text-gray-400 group-hover:text-red-500 transition">
-        +91 9876543210
+        +91 8618852728
       </span>
     </a>
 
