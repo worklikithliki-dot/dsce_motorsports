@@ -149,10 +149,10 @@ rotate-[12deg]
                   </p>
 
                   <a
-  href="tel:+919876543210"
+  href="tel:+918618852728"
   className="mt-2 inline-block text-lg text-white hover:text-red-500 transition-colors duration-300"
 >
-  +91 9876543210
+  +91 8618852728
 </a>
                 </div>
               </div>
