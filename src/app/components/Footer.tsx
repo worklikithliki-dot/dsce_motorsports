@@ -141,7 +141,7 @@ export default function Footer() {
 
     {/* Phone */}
     <a
-      href="tel:+919876543210"
+      href="tel:+918618852728"
       className="group flex items-center gap-3"
     >
       <Phone

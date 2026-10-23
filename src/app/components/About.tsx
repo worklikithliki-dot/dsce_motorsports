@@ -47,8 +47,8 @@ function CountUp({
 
 export default function About() {
   const achievements = [
-    "1st Place in Business Presentation - Formula Bharat 2024",
-    "2nd Place in Business Presentation - Formula Bharat 2025",
+    "1st Place in Business Presentation - SAE 2024",
+    "2nd Place in Business Presentation - SAE 2025",
     "Secured Overall 14th Position out of 100 Teams in the competition",
     "Successfully Completed the Endurance Event at Buddh International Circuit",
   ];
